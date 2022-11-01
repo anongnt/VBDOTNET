@@ -25,6 +25,9 @@ Partial Class Menu
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -40,7 +43,7 @@ Partial Class Menu
         '
         Me.Button2.Location = New System.Drawing.Point(531, 158)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(112, 34)
+        Me.Button2.Size = New System.Drawing.Size(203, 34)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "รายละเอียดของผู้ป่วย"
         Me.Button2.UseVisualStyleBackColor = True
@@ -54,11 +57,41 @@ Partial Class Menu
         Me.Button3.Text = "เข้าสู่ระบบ"
         Me.Button3.UseVisualStyleBackColor = True
         '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(795, 158)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(203, 34)
+        Me.Button4.TabIndex = 3
+        Me.Button4.Text = "ผู้ป่วยนอก"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(151, 265)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(203, 34)
+        Me.Button5.TabIndex = 4
+        Me.Button5.Text = "หน้าสำหรับพนักงาน"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(427, 265)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(203, 34)
+        Me.Button6.TabIndex = 5
+        Me.Button6.Text = "หน้าสำหรับพนักงาน2"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
         'Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1186, 644)
+        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -71,4 +104,7 @@ Partial Class Menu
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button6 As Button
 End Class

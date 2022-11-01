@@ -20,5 +20,21 @@
 
     End Sub
 
+    Private Sub Button4_Click_1(sender As Object, e As EventArgs) Handles Button4.Click
+        Outpatient.ShowDialog()
 
+
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Page_for_employees.ShowDialog()
+
+
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Page_for_employees2.ShowDialog()
+
+
+    End Sub
 End Class
