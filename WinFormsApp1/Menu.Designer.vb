@@ -28,6 +28,7 @@ Partial Class Menu
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -84,11 +85,21 @@ Partial Class Menu
         Me.Button6.Text = "หน้าสำหรับพนักงาน2"
         Me.Button6.UseVisualStyleBackColor = True
         '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(670, 265)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(203, 34)
+        Me.Button7.TabIndex = 6
+        Me.Button7.Text = "บันทึกยาแลยทรัพยากร"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
         'Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1186, 644)
+        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
@@ -107,4 +118,5 @@ Partial Class Menu
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
 End Class
