@@ -68,11 +68,11 @@ Partial Class Form3
         Me.Label2.BackColor = System.Drawing.Color.White
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label2.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label2.Location = New System.Drawing.Point(288, 324)
+        Me.Label2.Location = New System.Drawing.Point(281, 324)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(195, 30)
+        Me.Label2.Size = New System.Drawing.Size(210, 30)
         Me.Label2.TabIndex = 12
-        Me.Label2.Text = "สำหรับแนกผู้ป่วยใน"
+        Me.Label2.Text = "สำหรับแผนกผู้ป่วยใน"
         '
         'Label1
         '
