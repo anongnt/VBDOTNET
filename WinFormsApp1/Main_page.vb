@@ -1,4 +1,4 @@
-﻿Public Class Form2
+﻿Public Class Main_page
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
     End Sub
