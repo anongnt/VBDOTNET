@@ -28,8 +28,10 @@
     <Compile Update="Patient_details_page.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Resource.vb">
-      <SubType>Form</SubType>
-    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

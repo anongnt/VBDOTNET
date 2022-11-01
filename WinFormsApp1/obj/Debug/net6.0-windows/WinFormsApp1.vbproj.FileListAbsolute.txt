@@ -25,8 +25,6 @@ C:\Users\User\Desktop\VB\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.dll
 C:\Users\User\Desktop\VB\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.pdb
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.AssemblyReference.cache
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form1.resources
-C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form2.resources
-C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form3.resources
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Resources.resources
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.GenerateResource.cache
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
@@ -38,7 +36,6 @@ C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\refint\WinFormsAp
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
-C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form4.resources
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Menu.resources
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Login.resources
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Main_page.resources
@@ -47,4 +44,3 @@ C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Page
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Page_for_employees2.resources
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Patient_details.resources
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Patient_details_page.resources
-C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Resource.resources
