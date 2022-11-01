@@ -133,9 +133,19 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property LINE_ALBUM_vbui_๒๒๑๐๓๑_91() As System.Drawing.Bitmap
+        Friend ReadOnly Property login1_removebg_preview() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("LINE_ALBUM_vbui_๒๒๑๐๓๑_91", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("login1-removebg-preview", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property login2_removebg_preview() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("login2-removebg-preview", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
