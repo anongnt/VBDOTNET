@@ -46,3 +46,5 @@ C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Outp
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Page_for_employees.resources
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Page_for_employees2.resources
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Patient_details.resources
+C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Patient_details_page.resources
+C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Resource.resources
