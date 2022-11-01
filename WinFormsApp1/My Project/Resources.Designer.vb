@@ -73,6 +73,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property LINE_ALBUM_vbui_๒๒๑๐๓๑_251() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LINE_ALBUM_vbui_๒๒๑๐๓๑_251", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property LINE_ALBUM_vbui_๒๒๑๐๓๑_3() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("LINE_ALBUM_vbui_๒๒๑๐๓๑_3", resourceCulture)
@@ -96,6 +106,16 @@ Namespace My.Resources
         Friend ReadOnly Property LINE_ALBUM_vbui_๒๒๑๐๓๑_32() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("LINE_ALBUM_vbui_๒๒๑๐๓๑_32", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LINE_ALBUM_vbui_๒๒๑๐๓๑_33() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LINE_ALBUM_vbui_๒๒๑๐๓๑_33", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
