@@ -35,7 +35,7 @@ Partial Class Main_page
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.White
-        Me.Button1.BackgroundImage = Global.WinFormsApp1.My.Resources.Resources.Picture13
+        Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button1.Location = New System.Drawing.Point(71, 104)
         Me.Button1.Name = "Button1"
@@ -112,7 +112,7 @@ Partial Class Main_page
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "หน้าหลัก"
         '
-        'Form2
+        'Main_page
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -126,7 +126,7 @@ Partial Class Main_page
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
-        Me.Name = "Form2"
+        Me.Name = "Main_page"
         Me.Text = "Form2"
         Me.ResumeLayout(False)
         Me.PerformLayout()

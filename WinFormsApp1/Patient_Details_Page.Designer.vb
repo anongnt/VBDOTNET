@@ -31,13 +31,19 @@ Partial Class Patient_Details_Page
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
         '
+        Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
+        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel1.Controls.Add(Me.Label7)
+        Me.Panel1.Controls.Add(Me.Label6)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Controls.Add(Me.Label1)
@@ -47,9 +53,9 @@ Partial Class Patient_Details_Page
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.Button3)
         Me.Panel1.Controls.Add(Me.Label4)
-        Me.Panel1.Location = New System.Drawing.Point(0, 1)
+        Me.Panel1.Location = New System.Drawing.Point(0, -2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(803, 449)
+        Me.Panel1.Size = New System.Drawing.Size(901, 463)
         Me.Panel1.TabIndex = 0
         '
         'Label5
@@ -58,11 +64,11 @@ Partial Class Patient_Details_Page
         Me.Label5.BackColor = System.Drawing.Color.White
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label5.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label5.Location = New System.Drawing.Point(579, 331)
+        Me.Label5.Location = New System.Drawing.Point(669, 324)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(214, 30)
+        Me.Label5.Size = New System.Drawing.Size(216, 30)
         Me.Label5.TabIndex = 31
-        Me.Label5.Text = "เพิ่มพนักงานในแผนก"
+        Me.Label5.Text = "รายงานรายละเอียดยา"
         '
         'Label2
         '
@@ -70,11 +76,11 @@ Partial Class Patient_Details_Page
         Me.Label2.BackColor = System.Drawing.Color.White
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label2.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label2.Location = New System.Drawing.Point(448, 331)
+        Me.Label2.Location = New System.Drawing.Point(465, 324)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(109, 30)
+        Me.Label2.Size = New System.Drawing.Size(188, 30)
         Me.Label2.TabIndex = 30
-        Me.Label2.Text = "เพิ่มแผนก"
+        Me.Label2.Text = "บันทึกข้อมูลยาและ"
         '
         'Label1
         '
@@ -82,20 +88,20 @@ Partial Class Patient_Details_Page
         Me.Label1.BackColor = System.Drawing.Color.White
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label1.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label1.Location = New System.Drawing.Point(240, 331)
+        Me.Label1.Location = New System.Drawing.Point(303, 324)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(161, 30)
+        Me.Label1.Size = New System.Drawing.Size(88, 30)
         Me.Label1.TabIndex = 29
-        Me.Label1.Text = "ค้นหาคุณสมบัติ"
+        Me.Label1.Text = "ผู้ป่วยใน"
         '
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.Color.White
         Me.Button4.BackgroundImage = CType(resources.GetObject("Button4.BackgroundImage"), System.Drawing.Image)
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button4.Location = New System.Drawing.Point(601, 122)
+        Me.Button4.Location = New System.Drawing.Point(695, 115)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(166, 188)
+        Me.Button4.Size = New System.Drawing.Size(175, 188)
         Me.Button4.TabIndex = 28
         Me.Button4.UseVisualStyleBackColor = False
         '
@@ -104,9 +110,9 @@ Partial Class Patient_Details_Page
         Me.Button2.BackColor = System.Drawing.Color.White
         Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button2.Location = New System.Drawing.Point(419, 122)
+        Me.Button2.Location = New System.Drawing.Point(477, 115)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(166, 188)
+        Me.Button2.Size = New System.Drawing.Size(175, 188)
         Me.Button2.TabIndex = 27
         Me.Button2.UseVisualStyleBackColor = False
         '
@@ -115,9 +121,9 @@ Partial Class Patient_Details_Page
         Me.Button1.BackColor = System.Drawing.Color.White
         Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.Location = New System.Drawing.Point(237, 122)
+        Me.Button1.Location = New System.Drawing.Point(270, 115)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(166, 188)
+        Me.Button1.Size = New System.Drawing.Size(176, 188)
         Me.Button1.TabIndex = 26
         Me.Button1.UseVisualStyleBackColor = False
         '
@@ -127,22 +133,11 @@ Partial Class Patient_Details_Page
         Me.Label3.BackColor = System.Drawing.Color.White
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label3.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label3.Location = New System.Drawing.Point(67, 331)
+        Me.Label3.Location = New System.Drawing.Point(93, 324)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(135, 30)
+        Me.Label3.Size = New System.Drawing.Size(108, 30)
         Me.Label3.TabIndex = 25
-        Me.Label3.Text = "เพิ่มพนักงาน"
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.White
-        Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
-        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button3.Location = New System.Drawing.Point(53, 122)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(166, 188)
-        Me.Button3.TabIndex = 24
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.Label3.Text = "ผู้ป่วยนอก"
         '
         'Label4
         '
@@ -152,15 +147,50 @@ Partial Class Patient_Details_Page
         Me.Label4.ForeColor = System.Drawing.Color.Brown
         Me.Label4.Location = New System.Drawing.Point(254, 29)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(315, 46)
+        Me.Label4.Size = New System.Drawing.Size(391, 46)
         Me.Label4.TabIndex = 23
-        Me.Label4.Text = "หน้าสำหรับพนักงาน"
+        Me.Label4.Text = "หน้ารายละเอียดของผู้ป่วย"
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.White
+        Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
+        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button3.Location = New System.Drawing.Point(55, 115)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(176, 188)
+        Me.Button3.TabIndex = 24
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.White
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label6.ForeColor = System.Drawing.Color.Firebrick
+        Me.Label6.Location = New System.Drawing.Point(465, 354)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(200, 30)
+        Me.Label6.TabIndex = 32
+        Me.Label6.Text = "ทรัพยากรที่ให้ผู้ป่วย"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.White
+        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label7.ForeColor = System.Drawing.Color.Firebrick
+        Me.Label7.Location = New System.Drawing.Point(677, 354)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(205, 30)
+        Me.Label7.TabIndex = 33
+        Me.Label7.Text = "และทรัพยากรที่ได้รับ"
         '
         'Patient_Details_Page
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(901, 460)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "Patient_Details_Page"
         Me.Text = "Patient_Details_Page"
@@ -178,6 +208,8 @@ Partial Class Patient_Details_Page
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents Label3 As Label
-    Friend WithEvents Button3 As Button
     Friend WithEvents Label4 As Label
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label6 As Label
 End Class
