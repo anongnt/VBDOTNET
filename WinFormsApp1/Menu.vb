@@ -57,7 +57,23 @@
     End Sub
 
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+<<<<<<< HEAD
         edit_information.ShowDialog()
+=======
+        Patient_report.ShowDialog()
+
+
+    End Sub
+
+    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        Patient_report_department.ShowDialog()
+
+
+    End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        Drug_report.ShowDialog()
+>>>>>>> 6aa0b1db5df3bb1f6991287a1edc770649045bae
 
 
     End Sub
