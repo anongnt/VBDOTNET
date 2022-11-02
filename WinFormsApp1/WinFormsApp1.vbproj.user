@@ -28,6 +28,9 @@
     <Compile Update="Resource.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Save_Medical_records.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Save_resources.vb">
       <SubType>Form</SubType>
     </Compile>

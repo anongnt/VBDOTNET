@@ -72,3 +72,4 @@ E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\WinForms
 E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
 E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Resource.resources
 E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Save_resource_information.resources
+E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Save_Medical_records.resources
