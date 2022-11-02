@@ -67,7 +67,7 @@ Partial Class Save_resources
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Location = New System.Drawing.Point(-4, 1)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1093, 508)
         Me.Panel1.TabIndex = 0
@@ -80,9 +80,9 @@ Partial Class Save_resources
         Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue
         Me.Button3.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Button3.ForeColor = System.Drawing.Color.Red
-        Me.Button3.Location = New System.Drawing.Point(624, 271)
+        Me.Button3.Location = New System.Drawing.Point(624, 298)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(113, 39)
+        Me.Button3.Size = New System.Drawing.Size(113, 56)
         Me.Button3.TabIndex = 25
         Me.Button3.Text = "ลบ"
         Me.Button3.UseVisualStyleBackColor = False
@@ -97,7 +97,7 @@ Partial Class Save_resources
         Me.Button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Button1.Location = New System.Drawing.Point(624, 218)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(113, 39)
+        Me.Button1.Size = New System.Drawing.Size(113, 56)
         Me.Button1.TabIndex = 24
         Me.Button1.Text = "แก้ไข"
         Me.Button1.UseVisualStyleBackColor = False
@@ -107,7 +107,7 @@ Partial Class Save_resources
         Me.TextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox7.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.TextBox7.Location = New System.Drawing.Point(624, 118)
-        Me.TextBox7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox7.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(361, 29)
         Me.TextBox7.TabIndex = 23
@@ -117,7 +117,7 @@ Partial Class Save_resources
         Me.TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox6.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.TextBox6.Location = New System.Drawing.Point(170, 367)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(361, 29)
         Me.TextBox6.TabIndex = 22
@@ -127,7 +127,7 @@ Partial Class Save_resources
         Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox5.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.TextBox5.Location = New System.Drawing.Point(170, 314)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(361, 29)
         Me.TextBox5.TabIndex = 21
@@ -137,7 +137,7 @@ Partial Class Save_resources
         Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox4.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.TextBox4.Location = New System.Drawing.Point(170, 265)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(361, 29)
         Me.TextBox4.TabIndex = 20
@@ -147,7 +147,7 @@ Partial Class Save_resources
         Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox3.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.TextBox3.Location = New System.Drawing.Point(170, 206)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(361, 29)
         Me.TextBox3.TabIndex = 19
@@ -157,7 +157,7 @@ Partial Class Save_resources
         Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox2.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.TextBox2.Location = New System.Drawing.Point(170, 153)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(361, 29)
         Me.TextBox2.TabIndex = 18
@@ -167,7 +167,7 @@ Partial Class Save_resources
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.TextBox1.Location = New System.Drawing.Point(170, 103)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(361, 29)
         Me.TextBox1.TabIndex = 17
@@ -282,7 +282,7 @@ Partial Class Save_resources
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1088, 509)
         Me.Controls.Add(Me.Panel1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Save_resources"
         Me.Text = "Save_resources"
         Me.Panel1.ResumeLayout(False)
