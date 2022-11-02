@@ -73,3 +73,9 @@ E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinF
 E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Resource.resources
 E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Save_resource_information.resources
 E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Save_Medical_records.resources
+C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Resource.resources
+C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Save_Medical_records.resources
+C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Save_resource_information.resources
+C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Patient_report.resources
+C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Drug_report.resources
+C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Patient_report_department.resources
