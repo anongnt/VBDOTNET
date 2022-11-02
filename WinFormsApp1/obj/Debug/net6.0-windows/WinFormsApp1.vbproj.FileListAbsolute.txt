@@ -83,3 +83,7 @@ C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Pati
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Drug_report.resources
 C:\Users\User\Desktop\VB\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Patient_report_department.resources
 >>>>>>> 6aa0b1db5df3bb1f6991287a1edc770649045bae
+E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Drug_report.resources
+E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Patient_report.resources
+E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Patient_report_department.resources
+E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Patient_Details_Page.resources
