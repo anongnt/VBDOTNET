@@ -22,13 +22,14 @@ Partial Class Outpatient
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Outpatient))
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -47,17 +48,17 @@ Partial Class Outpatient
         Me.Panel1.Size = New System.Drawing.Size(801, 451)
         Me.Panel1.TabIndex = 0
         '
-        'Label4
+        'Label3
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label4.ForeColor = System.Drawing.Color.Brown
-        Me.Label4.Location = New System.Drawing.Point(315, 29)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(167, 46)
-        Me.Label4.TabIndex = 8
-        Me.Label4.Text = "ผู้ป่วยนอก"
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.White
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label3.ForeColor = System.Drawing.Color.Firebrick
+        Me.Label3.Location = New System.Drawing.Point(141, 350)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(161, 30)
+        Me.Label3.TabIndex = 17
+        Me.Label3.Text = "ของโรงพยาบาล"
         '
         'Label2
         '
@@ -86,7 +87,7 @@ Partial Class Outpatient
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.White
-        Me.Button2.BackgroundImage = Global.WinFormsApp1.My.Resources.Resources.Picture13
+        Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button2.Location = New System.Drawing.Point(406, 102)
         Me.Button2.Name = "Button2"
@@ -97,7 +98,7 @@ Partial Class Outpatient
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.White
-        Me.Button1.BackgroundImage = Global.WinFormsApp1.My.Resources.Resources.Picture13
+        Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button1.Location = New System.Drawing.Point(132, 102)
         Me.Button1.Name = "Button1"
@@ -105,25 +106,25 @@ Partial Class Outpatient
         Me.Button1.TabIndex = 13
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'Label3
+        'Label4
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.White
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label3.Location = New System.Drawing.Point(141, 350)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(161, 30)
-        Me.Label3.TabIndex = 17
-        Me.Label3.Text = "ของโรงพยาบาล"
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label4.ForeColor = System.Drawing.Color.Brown
+        Me.Label4.Location = New System.Drawing.Point(315, 29)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(167, 46)
+        Me.Label4.TabIndex = 8
+        Me.Label4.Text = "ผู้ป่วยนอก"
         '
-        'Form4
+        'Outpatient
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Panel1)
-        Me.Name = "Form4"
+        Me.Name = "Outpatient"
         Me.Text = "Form4"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

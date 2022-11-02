@@ -100,7 +100,7 @@ Partial Class Patient_details
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.White
-        Me.Button2.BackgroundImage = Global.WinFormsApp1.My.Resources.Resources.Picture13
+        Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button2.Location = New System.Drawing.Point(285, 106)
         Me.Button2.Name = "Button2"
@@ -111,7 +111,7 @@ Partial Class Patient_details
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.White
-        Me.Button1.BackgroundImage = Global.WinFormsApp1.My.Resources.Resources.Picture13
+        Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button1.Location = New System.Drawing.Point(66, 106)
         Me.Button1.Name = "Button1"
@@ -131,13 +131,13 @@ Partial Class Patient_details
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "รายละเอียดของผู้ป่วย"
         '
-        'Form3
+        'Patient_details
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Panel1)
-        Me.Name = "Form3"
+        Me.Name = "Patient_details"
         Me.Text = "Form3"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

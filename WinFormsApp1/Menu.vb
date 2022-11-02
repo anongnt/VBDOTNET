@@ -55,4 +55,10 @@
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
         Save_Medical_records.ShowDialog()
     End Sub
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        edit_information.ShowDialog()
+
+
+    End Sub
 End Class
