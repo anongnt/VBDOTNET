@@ -47,4 +47,8 @@
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
         Resource.ShowDialog()
     End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        Save_resource_information.ShowDialog()
+    End Sub
 End Class

@@ -31,6 +31,9 @@
     <Compile Update="Save_resources.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Save_resource_information.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="My Project\Resources.resx">
