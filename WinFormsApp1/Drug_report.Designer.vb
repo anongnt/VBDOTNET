@@ -50,7 +50,7 @@ Partial Class Drug_report
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox2.Location = New System.Drawing.Point(254, 413)
+        Me.TextBox2.Location = New System.Drawing.Point(235, 411)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(1318, 525)
@@ -65,7 +65,7 @@ Partial Class Drug_report
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue
         Me.Button2.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Button2.Location = New System.Drawing.Point(1119, 306)
+        Me.Button2.Location = New System.Drawing.Point(1109, 306)
         Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(161, 65)
@@ -77,7 +77,7 @@ Partial Class Drug_report
         '
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox1.Location = New System.Drawing.Point(687, 316)
+        Me.TextBox1.Location = New System.Drawing.Point(667, 316)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(402, 43)
         Me.TextBox1.TabIndex = 18
@@ -86,7 +86,7 @@ Partial Class Drug_report
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(495, 316)
+        Me.Label1.Location = New System.Drawing.Point(457, 321)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(161, 38)
         Me.Label1.TabIndex = 9

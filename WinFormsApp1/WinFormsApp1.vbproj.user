@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="a_face_for_the_staff.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Drug_report.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -11,6 +14,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Main_page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Menu.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Page_for_employees.vb">

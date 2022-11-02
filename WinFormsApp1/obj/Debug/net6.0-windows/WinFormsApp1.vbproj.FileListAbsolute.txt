@@ -64,3 +64,5 @@ E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\refint\W
 E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
 E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
 E:\Outside_work\Hospital\VBDOTNET\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
+C:\Users\User\Documents\UI\vbdotnet\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.a_face_for_the_staff.resources
+C:\Users\User\Documents\UI\vbdotnet\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Menu.resources
